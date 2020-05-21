@@ -1,0 +1,13 @@
+use classicmodels;
+select * from customers;
+-- drop database classicmodels;
+select lastName,firstName from employees;
+select * from customers where country like 'Spain';
+select * from customers where city like '%K%';
+select * from customers where city in ('las vegas');
+select orderDate from orders;
+select paymentDate from payments;
+select `customerNumber` from customers where city like '%k%';
+select country,phone,customerName from customers;
+select * from customers where `customerName` like 'Land of Toys Inc.';
+select * from customers where city in ('las vegas','NYC');
